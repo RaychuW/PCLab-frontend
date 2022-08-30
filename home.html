@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <script src="/js/navigation.js" defer></script>
+  <script src="/js/request.js" defer></script>
+  <title>PC Lab</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="gridWrapper_header">
+      <div class="logo__header"><a href="home.html">PC <span class="span">Lab<span class="cpu-icon"></span></span></a>
+      </div>
+      <ul class="navigation" data-visible="false">
+        <li class="home__navigation"><a href="home.html">Home</a></li>
+        <li class="about__navigation"><a href="">About</a></li>
+      </ul>
+      <button class="mobile-navigation-toggle" aria-expanded="false"></button>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="gridWrapper__main">
+      <div class="card">
+        <div class="text-button-wrapper card-face card__front" data-visible="true">
+          <h1>create your dream pc</h1>
+          <ul>
+            <li>
+              something
+              <ul>
+                <li>
+                  somethig
+                  <ul>
+                    <li>somethign</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <button type="button" class="request-btn">Request PC Build</button>
+        </div>
+        <div class="card-face card__back" data-visible="false">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSf3bnwE195EqP-JRoRTtMNZV5CIzOiYKjX1PXHhEaJ2KsOGzQ/viewform?embedded=true&hl=en">Loading…</iframe>
+        </div>
+      </div>
+      <div class="pc-img-wrapper">
+        <img src="/images/pc_cropped.png" class="pc-img">
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="gridWrapper__footer"></div>
+  </footer>
+</body>
+
+</html>
